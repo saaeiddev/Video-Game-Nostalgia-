@@ -1,0 +1,15 @@
+import type {Game} from './games';
+// Original abstract tribute artwork. No game covers or system screenshots.
+export function paintArt(c:CanvasRenderingContext2D,g:Game,w:number,h:number){
+c.clearRect(0,0,w,h);let grad=c.createLinearGradient(0,0,w,h);grad.addColorStop(0,g.accentColor);grad.addColorStop(.48,'#363946');grad.addColorStop(1,'#121820');c.fillStyle=grad;c.fillRect(0,0,w,h);c.save();c.translate(w*.5,h*.52);const s=w*.29;c.shadowBlur=30;c.shadowColor=g.accentColor;c.strokeStyle=g.accentColor;c.fillStyle=g.accentColor;c.lineWidth=w*.015;
+if(g.motif==='donut'){c.rotate(-.2);c.beginPath();c.arc(0,0,s,0,Math.PI*2);c.fillStyle='#ed9fba';c.fill();c.beginPath();c.arc(0,0,s*.36,0,Math.PI*2);c.fillStyle='#39394a';c.fill();for(let i=0;i<24;i++){let a=i*2.4,r=s*(.53+(i%3)*.12);c.save();c.translate(Math.cos(a)*r,Math.sin(a)*r);c.rotate(a);c.fillStyle=['#ffd36e','#b7eaf5','#e85969'][i%3];c.fillRect(-3,-2,w*.055,w*.017);c.restore();}}
+else if(g.motif==='crate'){c.rotate(-.15);c.fillStyle='#a75a25';c.fillRect(-s,-s,2*s,2*s);c.strokeRect(-s,-s,2*s,2*s);c.lineWidth=w*.05;c.beginPath();c.moveTo(-s,-s);c.lineTo(s,s);c.moveTo(s,-s);c.lineTo(-s,s);c.stroke();}
+else if(g.motif==='city'){for(let i=-3;i<4;i++){let hh=s*(1+(i*i%4)*.3);c.fillStyle=i%2?'#b78364':'#e0b890';c.fillRect(i*s*.43,-hh,s*.36,hh+s);c.fillStyle='#39333c';for(let y=-hh+15;y<s;y+=23)c.fillRect(i*s*.43+7,y,s*.19,7);}}
+else if(g.motif==='orbit'){for(let i=0;i<3;i++){c.save();c.rotate(i*1.05);c.beginPath();c.ellipse(0,0,s*1.2,s*.45,0,0,Math.PI*2);c.stroke();c.restore()}c.fillStyle='#fff2d0';c.beginPath();c.arc(0,0,s*.35,0,7);c.fill();}
+else if(g.motif==='target'){for(let i=3;i>0;i--){c.beginPath();c.arc(0,0,s*i/3,0,7);c.fillStyle=i%2?'#ef7b70':'#f4d6b8';c.fill()}c.rotate(-.6);c.fillStyle='#f9e6c9';c.fillRect(-s*.07,-s*1.35,s*.14,s*1.7);}
+else if(g.motif==='candy'){c.rotate(.45);c.beginPath();c.arc(0,0,s*.7,0,7);c.fillStyle='#ecce79';c.fill();c.strokeStyle='#fff0be';c.lineWidth=s*.15;c.beginPath();c.arc(0,0,s*.4,0,Math.PI*1.6);c.stroke();for(const k of [-1,1]){c.beginPath();c.moveTo(k*s*.62,0);c.lineTo(k*s*1.2,-s*.5);c.lineTo(k*s*1.2,s*.5);c.closePath();c.fill()}}
+else if(g.motif==='mountain'){for(let i=0;i<3;i++){c.fillStyle=['#be7865','#e2ae8b','#edceaa'][i];c.beginPath();c.moveTo(-s*1.5+i*s*.6,s);c.lineTo(-s*.5+i*s*.6,-s*(1.2-i*.25));c.lineTo(s*.5+i*s*.6,s);c.fill()}}
+else if(g.motif==='cat'){c.beginPath();c.moveTo(-s,-s*.4);c.lineTo(-s,-s*1.15);c.lineTo(-s*.35,-s*.7);c.quadraticCurveTo(0,-s,s*.35,-s*.7);c.lineTo(s,-s*1.15);c.lineTo(s,s*.25);c.quadraticCurveTo(0,s*1.4,-s,s*.25);c.closePath();c.fill();c.strokeStyle='#483323';c.beginPath();c.moveTo(-s*.6,0);c.lineTo(-s*.15,0);c.moveTo(s*.15,0);c.lineTo(s*.6,0);c.stroke();}
+else {c.beginPath();for(let i=0;i<10;i++){let a=i*Math.PI/5-Math.PI/2,r=i%2?s*.43:s;c.lineTo(Math.cos(a)*r,Math.sin(a)*r)}c.closePath();c.stroke();}
+c.restore();c.fillStyle='#fff3df18';for(let i=0;i<60;i++)c.fillRect((i*137.3)%w,(i*73.7)%h,1,1);}
+export function artURL(g:Game){const cv=document.createElement('canvas');cv.width=420;cv.height=560;paintArt(cv.getContext('2d')!,g,420,560);return cv.toDataURL('image/webp',.9)}
