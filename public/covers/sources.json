@@ -1,0 +1,101 @@
+[
+  {
+    "id": "garfield",
+    "game": "Garfield (2004)",
+    "source_page": "https://en.wikipedia.org/wiki/Garfield_(video_game)",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/77/Garfield_%28video_game%29.jpg/250px-Garfield_%28video_game%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "file_page": "https://en.wikipedia.org/wiki/File:Garfield_(video_game).jpg",
+    "local_path": "/workspace/scratch/nostalgia-covers/garfield.jpg",
+    "rights": "Copyrighted game cover or promotional artwork. Retrieved from Wikipedia for identification; no reuse license asserted. See linked file page for its rights and non-free-use rationale.",
+    "asset_type": "game cover",
+    "visual_inspection": "Confirmed correct title artwork"
+  },
+  {
+    "id": "rayman",
+    "game": "Rayman (1995)",
+    "source_page": "https://en.wikipedia.org/wiki/Rayman_(video_game)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Rayman_1_cover.png/250px-Rayman_1_cover.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "file_page": "https://en.wikipedia.org/wiki/File:Rayman_1_cover.png",
+    "local_path": "/workspace/scratch/nostalgia-covers/rayman.png",
+    "rights": "Copyrighted game cover or promotional artwork. Retrieved from Wikipedia for identification; no reuse license asserted. See linked file page for its rights and non-free-use rationale.",
+    "asset_type": "game cover",
+    "visual_inspection": "Confirmed correct title artwork"
+  },
+  {
+    "id": "cod",
+    "game": "Call of Duty (2003)",
+    "source_page": "https://en.wikipedia.org/wiki/Call_of_Duty_(video_game)",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/7c/Call_Of_Duty_%282003%29%2CCover%2CUpdated.jpg/250px-Call_Of_Duty_%282003%29%2CCover%2CUpdated.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "file_page": "https://en.wikipedia.org/wiki/File:Call_Of_Duty_(2003),Cover,Updated.jpg",
+    "local_path": "/workspace/scratch/nostalgia-covers/cod.jpg",
+    "rights": "Copyrighted game cover or promotional artwork. Retrieved from Wikipedia for identification; no reuse license asserted. See linked file page for its rights and non-free-use rationale.",
+    "asset_type": "game cover",
+    "visual_inspection": "Confirmed correct title artwork"
+  },
+  {
+    "id": "gta",
+    "game": "Grand Theft Auto (1997)",
+    "source_page": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_(video_game)",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e7/GTA_-_Box_Front.jpg/250px-GTA_-_Box_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "file_page": "https://en.wikipedia.org/wiki/File:GTA_-_Box_Front.jpg",
+    "local_path": "/workspace/scratch/nostalgia-covers/gta.jpg",
+    "rights": "Copyrighted game cover or promotional artwork. Retrieved from Wikipedia for identification; no reuse license asserted. See linked file page for its rights and non-free-use rationale.",
+    "asset_type": "game cover",
+    "visual_inspection": "Confirmed correct title artwork"
+  },
+  {
+    "id": "simpsons",
+    "game": "The Simpsons Hit & Run (2003)",
+    "source_page": "https://en.wikipedia.org/wiki/The_Simpsons:_Hit_%26_Run",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/The_Simpsons_Hit_and_Run_cover.png/250px-The_Simpsons_Hit_and_Run_cover.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "file_page": "https://en.wikipedia.org/wiki/File:The_Simpsons_Hit_and_Run_cover.png",
+    "local_path": "/workspace/scratch/nostalgia-covers/simpsons.png",
+    "rights": "Copyrighted game cover or promotional artwork. Retrieved from Wikipedia for identification; no reuse license asserted. See linked file page for its rights and non-free-use rationale.",
+    "asset_type": "game cover",
+    "visual_inspection": "Confirmed correct title artwork"
+  },
+  {
+    "id": "crash",
+    "game": "Crash Bandicoot (1996)",
+    "source_page": "https://en.wikipedia.org/wiki/Crash_Bandicoot_(video_game)",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/44/Crash_Bandicoot_Cover.png/250px-Crash_Bandicoot_Cover.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "file_page": "https://en.wikipedia.org/wiki/File:Crash_Bandicoot_Cover.png",
+    "local_path": "/workspace/scratch/nostalgia-covers/crash.png",
+    "rights": "Copyrighted game cover or promotional artwork. Retrieved from Wikipedia for identification; no reuse license asserted. See linked file page for its rights and non-free-use rationale.",
+    "asset_type": "game cover",
+    "visual_inspection": "Confirmed correct title artwork"
+  },
+  {
+    "id": "panda",
+    "game": "Kung Fu Panda (2008)",
+    "source_page": "https://en.wikipedia.org/wiki/Kung_Fu_Panda_(video_game)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Kung_Fu_Panda_Game_Cover.jpg/250px-Kung_Fu_Panda_Game_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "file_page": "https://en.wikipedia.org/wiki/File:Kung_Fu_Panda_Game_Cover.jpg",
+    "local_path": "/workspace/scratch/nostalgia-covers/panda.jpg",
+    "rights": "Copyrighted game cover or promotional artwork. Retrieved from Wikipedia for identification; no reuse license asserted. See linked file page for its rights and non-free-use rationale.",
+    "asset_type": "game cover",
+    "visual_inspection": "Confirmed correct title artwork"
+  },
+  {
+    "id": "birds",
+    "game": "Angry Birds (2009)",
+    "source_page": "https://en.wikipedia.org/wiki/Angry_Birds_(video_game)",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/2d/Angry_Birds_promo_art.png/250px-Angry_Birds_promo_art.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "file_page": "https://en.wikipedia.org/wiki/File:Angry_Birds_promo_art.png",
+    "local_path": "/workspace/scratch/nostalgia-covers/birds.png",
+    "rights": "Copyrighted game cover or promotional artwork. Retrieved from Wikipedia for identification; no reuse license asserted. See linked file page for its rights and non-free-use rationale.",
+    "asset_type": "app icon",
+    "visual_inspection": "Confirmed correct title artwork"
+  },
+  {
+    "id": "rope",
+    "game": "Cut the Rope (2010)",
+    "source_page": "https://en.wikipedia.org/wiki/Cut_the_Rope_(video_game)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Cut_the_Rope_%28App_icon%29.png/250px-Cut_the_Rope_%28App_icon%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "file_page": "https://en.wikipedia.org/wiki/File:Cut_the_Rope_(App_icon).png",
+    "local_path": "/workspace/scratch/nostalgia-covers/rope.png",
+    "rights": "Copyrighted game cover or promotional artwork. Retrieved from Wikipedia for identification; no reuse license asserted. See linked file page for its rights and non-free-use rationale.",
+    "asset_type": "app icon",
+    "visual_inspection": "Confirmed correct title artwork"
+  }
+]
